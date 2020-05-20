@@ -8,7 +8,7 @@ public class HelloWorld {
 
     @GetMapping(value = "/")
     String getHelloWorld (){
-        return "Hello world CSIE";
+        return "Hello world webhook!";
     }
 
 }
